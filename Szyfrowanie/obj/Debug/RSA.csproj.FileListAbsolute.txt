@@ -18,3 +18,7 @@ C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.csproj.GenerateResource.cach
 C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.csproj.CoreCompileInputs.cache
 C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.exe
 C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.pdb
+C:\Users\rafal\Desktop\przykład\ASAs\bin\Debug\RSA.exe.manifest
+C:\Users\rafal\Desktop\przykład\ASAs\bin\Debug\RSA.application
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.exe.manifest
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.application

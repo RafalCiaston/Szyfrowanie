@@ -43,8 +43,16 @@ namespace RSA
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.lblClickThis2 = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
+            this.tabPage2.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblClickThis
@@ -129,6 +137,7 @@ namespace RSA
             // 
             // tabPage1
             // 
+            this.tabPage1.Controls.Add(this.label3);
             this.tabPage1.Controls.Add(this.textBox5);
             this.tabPage1.Controls.Add(this.textBox4);
             this.tabPage1.Controls.Add(this.textBox3);
@@ -186,6 +195,12 @@ namespace RSA
             // 
             // tabPage2
             // 
+            this.tabPage2.Controls.Add(this.label4);
+            this.tabPage2.Controls.Add(this.lblClickThis2);
+            this.tabPage2.Controls.Add(this.textBox6);
+            this.tabPage2.Controls.Add(this.textBox7);
+            this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.label2);
             this.tabPage2.Location = new System.Drawing.Point(4, 22);
             this.tabPage2.Name = "tabPage2";
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
@@ -193,6 +208,78 @@ namespace RSA
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "Generowanie kluczy";
             this.tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // textBox6
+            // 
+            this.textBox6.Location = new System.Drawing.Point(738, 488);
+            this.textBox6.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox6.Multiline = true;
+            this.textBox6.Name = "textBox6";
+            this.textBox6.Size = new System.Drawing.Size(455, 214);
+            this.textBox6.TabIndex = 14;
+            // 
+            // textBox7
+            // 
+            this.textBox7.Location = new System.Drawing.Point(738, 247);
+            this.textBox7.Margin = new System.Windows.Forms.Padding(2);
+            this.textBox7.Multiline = true;
+            this.textBox7.Name = "textBox7";
+            this.textBox7.Size = new System.Drawing.Size(455, 201);
+            this.textBox7.TabIndex = 13;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(636, 488);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(78, 13);
+            this.label1.TabIndex = 12;
+            this.label1.Text = "Klucz prywatny";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(631, 253);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(80, 13);
+            this.label2.TabIndex = 11;
+            this.label2.Text = "Klucz publiczny";
+            // 
+            // lblClickThis2
+            // 
+            this.lblClickThis2.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.lblClickThis2.Location = new System.Drawing.Point(893, 144);
+            this.lblClickThis2.Margin = new System.Windows.Forms.Padding(2);
+            this.lblClickThis2.Name = "lblClickThis2";
+            this.lblClickThis2.Size = new System.Drawing.Size(112, 24);
+            this.lblClickThis2.TabIndex = 15;
+            this.lblClickThis2.Text = "Generuj klucz";
+            this.lblClickThis2.UseVisualStyleBackColor = true;
+            this.lblClickThis2.Click += new System.EventHandler(this.lblClickThis2_Click);
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label3.Location = new System.Drawing.Point(726, 29);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(302, 39);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Szyfrowanie tesktu";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label4.Location = new System.Drawing.Point(788, 28);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(324, 39);
+            this.label4.TabIndex = 16;
+            this.label4.Text = "Generowanie kluczy";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // Form1
             // 
@@ -206,6 +293,8 @@ namespace RSA
             this.tabControl1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
+            this.tabPage2.ResumeLayout(false);
+            this.tabPage2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -226,6 +315,13 @@ namespace RSA
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Button lblClickThis2;
+        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox textBox7;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
     }
 }
 

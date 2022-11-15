@@ -79,7 +79,7 @@ namespace RSA
                 try
                 {
 
-                    // server decrypting data with private key                    
+                                      
                     rsa.FromXmlString(privateKeyString);
 
                     var resultBytes = Convert.FromBase64String(textToDecrypt);
@@ -92,6 +92,29 @@ namespace RSA
                     rsa.PersistKeyInCsp = false;
                 }
             }
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void lblClickThis2_Click(object sender, EventArgs e)
+        {
+            var cryptoServiceProvider = new RSACryptoServiceProvider(2048);
+            var privateKey = cryptoServiceProvider.ExportParameters(true);
+            var publicKey = cryptoServiceProvider.ExportParameters(false);
+
+            string publicKeyString = GetKeyString(publicKey);
+            string privateKeyString = GetKeyString(privateKey);
+
+            textBox7.Text = publicKeyString;
+            textBox6.Text = privateKeyString;
         }
     }
 }
