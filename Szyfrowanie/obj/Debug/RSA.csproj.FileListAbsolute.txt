@@ -1,0 +1,20 @@
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\obj\Debug\RSA.csproj.AssemblyReference.cache
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\obj\Debug\RSA.Form1.resources
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\bin\Debug\RSA.exe.config
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\bin\Debug\RSA.exe
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\bin\Debug\RSA.pdb
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\obj\Debug\RSA.exe
+C:\Users\Acer\Desktop\test aplikacji okienkowej\RSA\obj\Debug\RSA.pdb
+C:\Users\rafal\Desktop\przykład\ASAs\bin\Debug\RSA.exe.config
+C:\Users\rafal\Desktop\przykład\ASAs\bin\Debug\RSA.exe
+C:\Users\rafal\Desktop\przykład\ASAs\bin\Debug\RSA.pdb
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.csproj.AssemblyReference.cache
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.Form1.resources
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.Properties.Resources.resources
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.csproj.GenerateResource.cache
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.csproj.CoreCompileInputs.cache
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.exe
+C:\Users\rafal\Desktop\przykład\ASAs\obj\Debug\RSA.pdb
