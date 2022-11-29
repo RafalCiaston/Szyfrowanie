@@ -1,0 +1,31 @@
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.exe.config
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.exe
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.pdb
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.AssemblyReference.cache
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.SuggestedBindingRedirects.cache
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie_prj.Form1.resources
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie_prj.Properties.Resources.resources
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.GenerateResource.cache
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.CoreCompileInputs.cache
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.exe
+C:\Users\Pawel\source\repos\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.pdb
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.exe.config
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.exe
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.pdb
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.AssemblyReference.cache
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie_prj.Form1.resources
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie_prj.Properties.Resources.resources
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.GenerateResource.cache
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.CoreCompileInputs.cache
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.exe
+C:\Users\rafal\Desktop\szyfrowanie-prj\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.pdb
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.exe.config
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.exe
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\bin\Debug\szyfrowanie-prj.pdb
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.AssemblyReference.cache
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\obj\Debug\szyfrowanie_prj.Form1.resources
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\obj\Debug\szyfrowanie_prj.Properties.Resources.resources
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.GenerateResource.cache
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.csproj.CoreCompileInputs.cache
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.exe
+C:\Users\rafal\Desktop\RSA 2\szyfrowanie-prj\obj\Debug\szyfrowanie-prj.pdb
