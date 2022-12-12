@@ -46,12 +46,11 @@
             this.FileEncryptButton = new System.Windows.Forms.Button();
             this.tabControl1 = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.label14 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.PublicKeyTextbox = new System.Windows.Forms.RichTextBox();
+            this.tabPage2 = new System.Windows.Forms.TabPage();
             this.label3 = new System.Windows.Forms.Label();
             this.EncryptButton = new System.Windows.Forms.Button();
             this.GenerateKeys = new System.Windows.Forms.Button();
+            this.PublicKeyTextbox = new System.Windows.Forms.RichTextBox();
             this.label5 = new System.Windows.Forms.Label();
             this.PrivateKeyTextbox = new System.Windows.Forms.RichTextBox();
             this.label6 = new System.Windows.Forms.Label();
@@ -60,10 +59,11 @@
             this.DecryptedText = new System.Windows.Forms.RichTextBox();
             this.TextToEncrypt = new System.Windows.Forms.RichTextBox();
             this.EncryptedText = new System.Windows.Forms.RichTextBox();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label13 = new System.Windows.Forms.Label();
+            this.label14 = new System.Windows.Forms.Label();
             this.tabControl1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -239,33 +239,32 @@
             this.tabPage1.Text = "Tekst";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
-            // label14
+            // tabPage2
             // 
-            this.label14.AutoSize = true;
-            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label14.Location = new System.Drawing.Point(841, 52);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(176, 25);
-            this.label14.TabIndex = 44;
-            this.label14.Text = "Szyfrowanie tekstu";
-            // 
-            // label13
-            // 
-            this.label13.AutoSize = true;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.Location = new System.Drawing.Point(276, 52);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(189, 25);
-            this.label13.TabIndex = 30;
-            this.label13.Text = "Generowanie klucza";
-            // 
-            // PublicKeyTextbox
-            // 
-            this.PublicKeyTextbox.Location = new System.Drawing.Point(128, 121);
-            this.PublicKeyTextbox.Name = "PublicKeyTextbox";
-            this.PublicKeyTextbox.Size = new System.Drawing.Size(451, 202);
-            this.PublicKeyTextbox.TabIndex = 17;
-            this.PublicKeyTextbox.Text = "";
+            this.tabPage2.Controls.Add(this.label12);
+            this.tabPage2.Controls.Add(this.label11);
+            this.tabPage2.Controls.Add(this.label1);
+            this.tabPage2.Controls.Add(this.PublicKeyPath);
+            this.tabPage2.Controls.Add(this.FileEncryptButton);
+            this.tabPage2.Controls.Add(this.FileDecryptButton);
+            this.tabPage2.Controls.Add(this.label7);
+            this.tabPage2.Controls.Add(this.FileToDecryptPath);
+            this.tabPage2.Controls.Add(this.PublicKeySelect);
+            this.tabPage2.Controls.Add(this.FileToDecryptButton);
+            this.tabPage2.Controls.Add(this.label8);
+            this.tabPage2.Controls.Add(this.label10);
+            this.tabPage2.Controls.Add(this.PrivateKeySelect);
+            this.tabPage2.Controls.Add(this.FileToEncryptPath);
+            this.tabPage2.Controls.Add(this.PrivateKeyPath);
+            this.tabPage2.Controls.Add(this.FileToEncyptButton);
+            this.tabPage2.Controls.Add(this.label9);
+            this.tabPage2.Location = new System.Drawing.Point(4, 22);
+            this.tabPage2.Name = "tabPage2";
+            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
+            this.tabPage2.Size = new System.Drawing.Size(1168, 713);
+            this.tabPage2.TabIndex = 1;
+            this.tabPage2.Text = "Plik";
+            this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -295,6 +294,14 @@
             this.GenerateKeys.Text = "Wygeneruj Klucze";
             this.GenerateKeys.UseVisualStyleBackColor = true;
             this.GenerateKeys.Click += new System.EventHandler(this.GenerateKeys_Click);
+            // 
+            // PublicKeyTextbox
+            // 
+            this.PublicKeyTextbox.Location = new System.Drawing.Point(128, 121);
+            this.PublicKeyTextbox.Name = "PublicKeyTextbox";
+            this.PublicKeyTextbox.Size = new System.Drawing.Size(451, 202);
+            this.PublicKeyTextbox.TabIndex = 17;
+            this.PublicKeyTextbox.Text = "";
             // 
             // label5
             // 
@@ -365,42 +372,15 @@
             this.EncryptedText.TabIndex = 29;
             this.EncryptedText.Text = "";
             // 
-            // tabPage2
+            // label1
             // 
-            this.tabPage2.Controls.Add(this.label12);
-            this.tabPage2.Controls.Add(this.label11);
-            this.tabPage2.Controls.Add(this.label1);
-            this.tabPage2.Controls.Add(this.PublicKeyPath);
-            this.tabPage2.Controls.Add(this.FileEncryptButton);
-            this.tabPage2.Controls.Add(this.FileDecryptButton);
-            this.tabPage2.Controls.Add(this.label7);
-            this.tabPage2.Controls.Add(this.FileToDecryptPath);
-            this.tabPage2.Controls.Add(this.PublicKeySelect);
-            this.tabPage2.Controls.Add(this.FileToDecryptButton);
-            this.tabPage2.Controls.Add(this.label8);
-            this.tabPage2.Controls.Add(this.label10);
-            this.tabPage2.Controls.Add(this.PrivateKeySelect);
-            this.tabPage2.Controls.Add(this.FileToEncryptPath);
-            this.tabPage2.Controls.Add(this.PrivateKeyPath);
-            this.tabPage2.Controls.Add(this.FileToEncyptButton);
-            this.tabPage2.Controls.Add(this.label9);
-            this.tabPage2.Location = new System.Drawing.Point(4, 22);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(1168, 713);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Plik";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label12.Location = new System.Drawing.Point(498, 54);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(172, 25);
-            this.label12.TabIndex = 45;
-            this.label12.Text = "Wybieranie klucza";
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label1.Location = new System.Drawing.Point(303, 427);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(119, 25);
+            this.label1.TabIndex = 43;
+            this.label1.Text = "Szyfrowanie";
             // 
             // label11
             // 
@@ -412,22 +392,42 @@
             this.label11.TabIndex = 44;
             this.label11.Text = "Odszyfrowanie";
             // 
-            // label1
+            // label12
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(303, 427);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(119, 25);
-            this.label1.TabIndex = 43;
-            this.label1.Text = "Szyfrowanie";
+            this.label12.AutoSize = true;
+            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label12.Location = new System.Drawing.Point(498, 54);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(172, 25);
+            this.label12.TabIndex = 45;
+            this.label12.Text = "Wybieranie klucza";
+            // 
+            // label13
+            // 
+            this.label13.AutoSize = true;
+            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label13.Location = new System.Drawing.Point(276, 52);
+            this.label13.Name = "label13";
+            this.label13.Size = new System.Drawing.Size(189, 25);
+            this.label13.TabIndex = 30;
+            this.label13.Text = "Generowanie klucza";
+            // 
+            // label14
+            // 
+            this.label14.AutoSize = true;
+            this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.label14.Location = new System.Drawing.Point(841, 52);
+            this.label14.Name = "label14";
+            this.label14.Size = new System.Drawing.Size(176, 25);
+            this.label14.TabIndex = 44;
+            this.label14.Text = "Szyfrowanie tekstu";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.ClientSize = new System.Drawing.Size(1203, 780);
+            this.ClientSize = new System.Drawing.Size(1205, 769);
             this.Controls.Add(this.tabControl1);
             this.Name = "Form1";
             this.Text = "RSA";
