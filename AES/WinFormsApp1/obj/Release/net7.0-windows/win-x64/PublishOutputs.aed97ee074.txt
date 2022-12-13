@@ -1,0 +1,5 @@
+X:\apka2\WinFormsApp1.exe
+X:\apka2\WinFormsApp1.dll
+X:\apka2\WinFormsApp1.deps.json
+X:\apka2\WinFormsApp1.runtimeconfig.json
+X:\apka2\WinFormsApp1.pdb

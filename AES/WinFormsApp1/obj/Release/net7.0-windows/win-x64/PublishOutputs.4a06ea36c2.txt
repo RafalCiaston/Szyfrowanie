@@ -1,0 +1,5 @@
+C:\Users\mcmys\OneDrive\Pulpit\Skany\WinFormsApp1.exe
+C:\Users\mcmys\OneDrive\Pulpit\Skany\WinFormsApp1.dll
+C:\Users\mcmys\OneDrive\Pulpit\Skany\WinFormsApp1.deps.json
+C:\Users\mcmys\OneDrive\Pulpit\Skany\WinFormsApp1.runtimeconfig.json
+C:\Users\mcmys\OneDrive\Pulpit\Skany\WinFormsApp1.pdb

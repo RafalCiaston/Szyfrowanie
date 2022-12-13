@@ -1,0 +1,5 @@
+C:\Users\rafal\Desktop\AES\Aplikacja\WinFormsApp1.exe
+C:\Users\rafal\Desktop\AES\Aplikacja\WinFormsApp1.dll
+C:\Users\rafal\Desktop\AES\Aplikacja\WinFormsApp1.deps.json
+C:\Users\rafal\Desktop\AES\Aplikacja\WinFormsApp1.runtimeconfig.json
+C:\Users\rafal\Desktop\AES\Aplikacja\WinFormsApp1.pdb
