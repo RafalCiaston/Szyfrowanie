@@ -219,7 +219,7 @@ namespace szyfrowanie_prj
             
            
            
-            public void EncryptFile(string filePath, string destinationFolder, string publicKeyString)
+            public void SzyfrujPlik(string filePath, string destinationFolder, string publicKeyString)
             {
                 Stopwatch stopWatch = new Stopwatch();
                 stopWatch.Start();
@@ -277,7 +277,7 @@ namespace szyfrowanie_prj
                     MessageBox.Show("Plik został zaszyfrowany \nCzas: " + stopWatch.Elapsed.ToString(@"hh\:mm\:ss"), "Info");
                 }
             }
-            public void DecryptFile(string filePath, string destinationFolder, string privateKeyString)
+            public void OdszyfrujPlik(string filePath, string destinationFolder, string privateKeyString)
             {
                 Stopwatch stopWatch = new Stopwatch();
                 stopWatch.Start();
@@ -367,7 +367,7 @@ namespace szyfrowanie_prj
                     {
                     try
                     {
-                        enc.EncryptFile(fileToEncryptPath, encryptedFilePath, publicKeyString);
+                        enc.SzyfrujPlik(fileToEncryptPath, encryptedFilePath, publicKeyString);
                     }
                     finally { }
                 }
@@ -415,7 +415,7 @@ namespace szyfrowanie_prj
                         privateKeyString = privateKeyText;
                         try
                         {
-                            enc.DecryptFile(fileToDecryptPath, decryptedFilePath, privateKeyString);
+                            enc.OdszyfrujPlik(fileToDecryptPath, decryptedFilePath, privateKeyString);
                         }
                         finally { }
                     }
